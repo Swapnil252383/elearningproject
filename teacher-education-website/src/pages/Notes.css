@@ -1,0 +1,22 @@
+.notes-page{
+    padding:80px 8%;
+    background:#f7faff;
+    text-align:center;
+    }
+    
+    .notes-page h2{
+    font-size:40px;
+    color:#0d6efd;
+    margin-bottom:10px;
+    }
+    
+    .notes-page p{
+    margin-bottom:40px;
+    color:#666;
+    }
+    
+    .notes-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+    }
